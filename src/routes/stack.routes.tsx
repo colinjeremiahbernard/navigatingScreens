@@ -5,12 +5,11 @@ const{ Screen, Navigator }=createStackNavigator();
 
 
 import GalleryScreen from '../screens/GalleryScreen'
-
 export function StackRoutes() {
     return(
        <Navigator>
          <Screen
-           name='home'
+           name='Home'
            component={HomeScreen}
            options={{
             title:'Main Menu',
